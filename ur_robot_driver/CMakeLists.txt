@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.8.12)
 project(ur_robot_driver)
 
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
 add_definitions( -DROS_BUILD )
 
 if(NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
